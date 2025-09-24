@@ -2,7 +2,7 @@ opencv-python
 pdf2image
 wand
 Pillow
-bpy
+bpy==4.3.0
 keras-ocr
 keras
 tensorflow==2.15.1
