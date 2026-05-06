@@ -32,8 +32,8 @@ jobs:
       - name: Set up conda environment
         uses: conda-incubator/setup-miniconda@v4
         with:
-          environment-file: linux-environment.yml
-          python-version: '3.11.13'
+          environment-file: environment-build.yml
+          python-version: '3.11.10'
           auto-activate-base: false
           activate-environment: twoD2threeD
 

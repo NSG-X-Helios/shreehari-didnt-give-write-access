@@ -1,0 +1,21 @@
+name: twoD2threeD
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pip:
+      - bpy==4.3.0
+      - opencv-python
+      - pdf2image
+      - wand
+      - Pillow
+      - keras-ocr
+      - keras==2.15.0
+      - tensorflow==2.15.1
+      - ultralytics
+      - pyinstaller
